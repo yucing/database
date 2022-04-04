@@ -3,6 +3,8 @@
 * Collection of application programs that perform services for the end users.
 * Each program defines and manages its own data.
 
+![](https://github.com/yucing/database/blob/main/picture/FBS.png)
+
 # Limitations of File-Based Approach
 ## Separation and isolation of data
 * Each program maintains its own set of data.
