@@ -49,5 +49,62 @@ required for the application
 * allows user to state what data is needed rather than how it is to be retrieved.
 ## Fourth Generation Languages (4GLs)
 
-# Data Mode
-* Integrated collection of concepts for describing data, relationships between data, and constraints on the data in an organization.
+# Data Model
+* Integrated (整合) collection of concepts for describing data, relationships between data, and constraints (約束) on the data in an organization.
+## Data Model comprises:
+* a structural part.
+* a manipulative (操作性的) part.
+* possibly a set of integrity rules.
+## Purpose
+* To represent data in an understandable way.
+## Categories of data models include:
+* Object-based.
+* Record-based.
+* Physical.
+## Object-Based Data Models
+* Entity-Relationship
+* Semantic (語意)
+* Functional
+* Object-Oriented.
+## Record-Based Data Models
+* Relational Data Model
+
+![](https://github.com/yucing/database/blob/main/picture/RDM.png)
+
+* Network Data Model
+
+![](https://github.com/yucing/database/blob/main/picture/NDM.png)
+
+* Hierarchical (分層的) Data Model.
+
+![](https://github.com/yucing/database/blob/main/picture/HDM.png)
+
+## Physical Data Models
+
+# Conceptual Modeling 概念模型
+* Conceptual schema is the core of a system supporting all user views.
+* Should be complete and accurate representation of an organization’s data requirements.
+* Conceptual modeling is process of developing a model of information use that is independent of implementation (執行) details.
+* Result is a conceptual data model.
+
+# Functions of a DBMS
+* Data Storage, Retrieval, and Update.
+* A User-Accessible Catalog.
+* Transaction Support.
+* Concurrency Control Services.
+* Recovery Services.
+* Authorization Services.
+* Support for Data Communication.
+* Integrity Services.
+* Services to Promote (推動) Data Independence.
+* Utility Services.(公用事業服務)
+
+# System Catalog
+## Repository (儲存庫) of information (metadata) describing the data in the database.
+## One of the fundamental (基礎的) components (零件) of DBMS.
+## Typically stores:
+* names, types, and sizes of data items;
+* constraints on the data;
+* names of authorized users;
+* data items accessible by a user and the type of access;
+* usage statistics (統計).
