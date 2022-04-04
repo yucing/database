@@ -35,3 +35,29 @@
 # Database Management System (DBMS)
 * A software system that enables users to define, create, maintain, and control access to the database.
 * (Database) application program: a computer program that interacts with database by issuing an appropriate (合適的) request (SQL statement) to the DBMS.
+
+![](https://github.com/yucing/database/blob/main/picture/DBMS.png)
+
+# Database Approach
+## Data definition language (DDL).
+* Permits specification of data types, structures and any data constraints.
+* All specifications are stored in the database.
+## Data manipulation (操控) language (DML).
+* General enquiry facility (query language) of the data.
+## Controlled access to database may include:
+* a security system
+* an integrity system (完整系統)
+* a concurrency control system (並行控制系統)
+* a recovery control system
+* a user-accessible catalog. (使用者易使用的目錄)
+
+# View
+* Allows each user to have his or her own view of the database.
+* A view is essentially some subset of the database.
+## Benefit
+* Reduce complexity
+* Provide a level of security
+* Provide a mechanism to customize (定制) the appearance of the database
+* Present a consistent, unchanging picture of the structure of the database, even if the underlying database is changed
+
+![](https://github.com/yucing/database/blob/main/picture/DBMS2.png)
