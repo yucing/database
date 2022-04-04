@@ -60,4 +60,48 @@
 * Provide a mechanism to customize (定制) the appearance of the database
 * Present a consistent, unchanging picture of the structure of the database, even if the underlying database is changed
 
+# Components of DBMS Environment
+
 ![](https://github.com/yucing/database/blob/main/picture/DBMS2.png)
+
+## Hardware
+* Can range from a PC to a network of computers.
+## Software
+* DBMS, operating system, network software (if necessary) and also the application programs.
+## Data
+* Used by the organization and a description of this data called the schema.
+## Procedures
+* Instructions and rules that should be applied to the design and use of the database and DBMS.
+## People
+
+# Roles in the Database Environment
+* Data Administrator (DA)
+* Database Administrator (DBA)
+* Database Designers (Logical and Physical)
+* Application Programmers
+* End Users (naive and sophisticated)
+
+# Advantages of DBMSs
+* Control of data redundancy (資料冗餘)
+* Data consistency
+* More information from the same amount of data
+* Sharing of data
+* Improved data integrity (資料完整性)
+* Improved security
+* Enforcement of standards
+* Economy of scale (規模經濟)
+* Balance conflicting (牴觸) requirements
+* Improved data accessibility and responsiveness
+* Increased productivity
+* Improved maintenance through data independence
+* Increased concurrency
+* Improved backup and recovery services
+
+# Disadvantages of DBMSs
+* Complexity
+* Size
+* Cost of DBMS
+* Additional hardware costs
+* Cost of conversion
+* Performance
+* Higher impact of a failure
