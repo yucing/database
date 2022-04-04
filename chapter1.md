@@ -29,3 +29,7 @@
 * Shared collection of logically related data (and a description of this data), designed to meet the information needs of an organization.
 * System catalog (metadata) provides description of data to enable program–data independence.
 * Logically related data comprises entities, attributes, and relationships of an organization’s information.
+
+# Database Management System (DBMS)
+* A software system that enables users to define, create, maintain, and control access to the database.
+* (Database) application program: a computer program that interacts with database by issuing an appropriate (合適的) request (SQL statement) to the DBMS.
