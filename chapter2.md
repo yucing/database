@@ -129,10 +129,44 @@ required for the application
 * File-server is connected to several workstations across a network.
 * Database resides (居住) on file-server.
 * DBMS and applications run on each workstation.
+
+![](https://github.com/yucing/database/blob/main/picture/file-server.png)
+
 ### Disadvantages include:
 * Significant network traffic.
 * Copy of DBMS on each workstation.
 * Concurrency, recovery and integrity control more complex.
 ## Client-server
 
-![](https://github.com/yucing/database/blob/main/picture/file-server.png)
+# Traditional Two-Tier Client-Server
+* Client (tier 1) manages user interface and runs applications.
+* Server (tier 2) holds database and DBMS.
+## Advantages include:
+* wider access to existing databases;
+* increased performance;
+* possible reduction in hardware costs;
+* reduction in communication costs;
+* increased consistency.
+
+![](https://github.com/yucing/database/blob/main/picture/client-server.png)
+
+![](https://github.com/yucing/database/blob/main/picture/client-server2.png)
+
+# Three-Tier Client-Server
+## Client side presented two problems preventing true scalability (擴展性):
+* ‘Fat’ client, requiring considerable resources on client’s computer to run effectively.
+* Significant client side administration overhead.
+## By 1995, three layers proposed, each potentially running on a different platform.
+## Advantages:
+* ‘Thin’ client, requiring less expensive hardware.
+* Application maintenance (維護) centralized (統一).
+* Easier to modify or replace one tier without affecting others.
+* Separating business logic from database functions makes it easier to implement (實施) load balancing.
+* Maps quite naturally to Web environment.
+
+![](https://github.com/yucing/database/blob/main/picture/client-server3.png)
+
+# Transaction Processing Monitors
+* Program that controls data transfer between clients and servers in order to provide a consistent environment, particularly for Online Transaction Processing (OLTP).
+
+![](https://github.com/yucing/database/blob/main/picture/TPM.png)
