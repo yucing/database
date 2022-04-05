@@ -100,11 +100,39 @@ required for the application
 * Utility Services.(公用事業服務)
 
 # System Catalog
-## Repository (儲存庫) of information (metadata) describing the data in the database.
-## One of the fundamental (基礎的) components (零件) of DBMS.
+* Repository (儲存庫) of information (metadata) describing the data in the database.
+* One of the fundamental (基礎的) components (零件) of DBMS.
 ## Typically stores:
 * names, types, and sizes of data items;
 * constraints on the data;
 * names of authorized users;
 * data items accessible by a user and the type of access;
 * usage statistics (統計).
+
+# Componenets of a DBMS
+
+![](https://github.com/yucing/database/blob/main/picture/compenent.png)
+
+# Componenets of Database Manager
+
+![](https://github.com/yucing/database/blob/main/picture/compenent2.png)
+
+# Multi-User DBMS Architectures
+## Teleprocessing
+* Traditional architecture.
+* Single mainframe (大型電腦) with a number of terminals attached.
+* Trend is now towards downsizing (縮小).
+
+![](https://github.com/yucing/database/blob/main/picture/teleprocessing.png)
+
+## File-server
+* File-server is connected to several workstations across a network.
+* Database resides (居住) on file-server.
+* DBMS and applications run on each workstation.
+### Disadvantages include:
+* Significant network traffic.
+* Copy of DBMS on each workstation.
+* Concurrency, recovery and integrity control more complex.
+## Client-server
+
+![](https://github.com/yucing/database/blob/main/picture/file-server.png)
